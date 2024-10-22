@@ -1,0 +1,122 @@
+
+
+body{
+    background-color: rgba(255, 192, 203, 0.415);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    display: grid;
+    place-content: center;
+    padding: 80px;
+}
+.conteinerall{
+    background-color: rgba(255, 255, 255, 0.656);
+    width: 340px;
+    height: 800px;
+    box-shadow: 2px 10px 18px  pink;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteiner1{
+    position: relative;
+    width: 100%;
+}
+.firstphoto {
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+}
+.texts{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.conteiner1 h4{
+    color: pink;
+}
+.commas, .back{
+    background-color: rgba(255, 255, 255, 0.268);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+}
+.commas{
+    margin-top: 8px;
+    margin-left:95px;
+}
+.back{
+    margin-top: 8px;
+    margin-left: 1px;
+}
+.person{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.lastimg{
+    gap: 2px;
+    width: 350px;
+    height: 100px;
+    object-fit: cover;
+}
+table{
+    color: white;
+}
+table th {
+    color: pink;
+}
+.btn1{
+    background-color: rgba(255, 255, 255, 0.092);
+    border-radius: 10px 0 0px 10px;
+    width: 95px;
+    height: 28px;
+    border-color: white;
+    color: white;
+}
+.btn2 {
+    background-color: rgba(255, 255, 255, 0.092);
+    border-radius: 0px 10px 10px 0px;
+    width: 95px;
+    height: 28px;
+    border-color: white;
+    color: white;
+}
+.conteiner2{
+    width:340px;
+    background-color: white;
+    color: pink;
+}
+
+.btn11 {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgba(255, 192, 203, 0.215);
+}
+.btn22{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: rgba(255, 192, 203, 0.215);
+}
+.photo1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+.photo2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+}
